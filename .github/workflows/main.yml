@@ -7,3 +7,5 @@ jobs:
       - uses: actions/checkout@v4
       - name: Check file exists
         run: echo "Test passed"
+      - name: Check README
+        run: grep "project" README.md
