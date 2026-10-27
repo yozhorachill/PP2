@@ -9,3 +9,6 @@ jobs:
         run: echo "Test passed"
       - name: Check README
         run: grep "project" README.md
+      - name: Bui;d project
+        run: echo "Build complete"
+        
